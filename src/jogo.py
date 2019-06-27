@@ -1,4 +1,5 @@
 personagens = []
+jogador = {"nome": "", "vida": 300, "dano": {"dano": 5, "acc": 10, "crit": 100}, "score": 0}
 
 with open("../resources/personagens.txt") as arquivo:
     for line in arquivo:
