@@ -421,7 +421,7 @@ def item_drop_aleatorio(jogador):
 
 def seletor_de_dificuldade(jogador):
     entradas = ["litoral", "planicie", "montanhas"]
-    entrada = input_processado(entradas, "você pode ir pelos caminhos litoral/planicie/montanha: ")
+    entrada = input_processado(entradas, "você pode ir pelos caminhos litoral/planicie/montanhas: ")
     if entrada == "litoral":
         jogador["dificuldade"] = 1
     if entrada == "planicie":
